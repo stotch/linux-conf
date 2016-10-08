@@ -13,4 +13,4 @@ the the major release versions of linux. For example, kernel configs for
 Linux v4.6.3 can be found under annotated tag "v4.6".
 
 The directory structure is as follows:
-kernel/<arch>/<bit-depth>/<cpu_type>/<hardware_profile>_config
+kernel/\<arch\>/\<bit-depth\>/\<cpu_type\>/\<hardware_profile\>_config
