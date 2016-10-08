@@ -8,9 +8,9 @@ configs for building customized kernels.
 
 ## Repo layout
 
-The config files are stored under annotated tags, with versions matching
-the the major release versions of linux. For example, kernel configs for
-Linux v4.6.3 can be found under annotated tag "v4.6".
+The config files are stored under master. As configs get refined,
+they'll be tagged for the version of the Linux kernel that they apply
+to, plus my own "-rc-n" release candidate number.
 
 The directory structure is as follows:
-kernel/\<arch\>/\<bit-depth\>/\<cpu_type\>/\<hardware_profile\>_config
+kernel/\<arch\>/\<bits\>/\<cpu_type\>/\<hardware_profile\>_config
